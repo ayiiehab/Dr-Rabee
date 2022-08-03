@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+    padding   : 0px;
+    margin    : 0%;
+}
+
+
+#main-nav {
+    background-color: #fff;
+    opacity         : 0.7;
+    z-index: 9999999999999999999999999;
+
+}
+
+#main-nav .container a img {
+    width: 50%;
+}
+
+.navbar-collapse ul li {
+    padding-left: 5px;
+    font-size   : 18px;
+}
+
+.navbar-collapse ul li a {
+    color: rgb(47, 47, 77);
+
+}
+
+#home .layer .frist-slide {
+    background-image     : url(../images/0000.png);
+    background-position  : center center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+#home .layer .secand-slide {
+    background-image     : url(../images/00000.png);
+    background-position  : center center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+#home .layer .thrid-slide {
+    background-image     : url(../images/000.png);
+    background-position  : center center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+#home .layer {
+    position: relative;
+}
+
+#home .layer .bgColor {
+    width       : 80%;
+    margin-left : 10%;
+    top         : 0%;
+    z-index     : 111;
+    position    : absolute;
+    border      : 4px solid #fff;
+    border-style: none solid solid solid;
+
+
+}
+
+#home .layer .bgColor:before {
+    content     : " ";
+    position    : absolute;
+    z-index     : -1;
+    top         : 0px;
+    left        : 5px;
+    right       : 5px;
+    bottom      : 5px;
+    border      : 5px solid #fff;
+    border-style: none solid solid solid;
+
+}
+
+#home .layer .carousel-item .caption {
+    width   : 40%;
+    position: relative;
+    top     : 68%;
+    left    : -2%;
+    z-index : 22222;
+}
+
+#carouselExampleInterval p{
+    color: rgb(70, 69, 69);
+}
+#home .layer .carousel-item .caption h2 {
+    color: rgb(47, 61, 139);
+}
+
+#home .layer .carousel-item .caption span {
+    color: rgb(69, 203, 212);
+}
+
+/* ----------------end Nav------------ */
+#about {
+    width                : 100%;
+    background-size      : 100% 100%;
+    background-attachment: fixed;
+    background-position  : center center;
+}
+
+#about .content-layer {
+
+    width : 100%;
+    height: 100%;
+
+
+}
+
+#about .about-content {
+    width           : 70%;
+    height          : 90%;
+    background-image: linear-gradient(to right, rgb(85, 85, 156), rgb(69, 186, 233));
+    font-size       : 20px;
+}
+
+#about .about-content h2,
+#about .about-content p {
+    color: rgb(252, 252, 252);
+
+}
+
+#about .about-content p {
+    font-weight: 500;
+}
+
+
+#about .foot {
+    width      : 50%;
+    margin-left: 10%;
+    color      : #fff;
+
+}
+
+#about .foot a i {
+    font-weight    : 600;
+    text-decoration: none;
+    color          : #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+#about .foot a .fa-facebook:hover {
+    color    : rgb(48, 94, 223);
+    font-size: larger;
+}
+#about .foot a .fa-youtube:hover {
+    color    : rgb(231, 19, 12);
+    font-size: larger;
+}#about .foot a .fa-instagram:hover {
+    color    : rgb(182, 132, 40);
+    font-size: larger;
+}
+/* ---------------------services-------------- */
+#services {
+    box-sizing: border-box;
+}
+
+
+#services .serice-info {
+    background-color: white;
+    height          : 93%;
+    position        : relative;
+}
+#services .about-content h2{
+    color    : rgb(79, 100, 160);
+}
+
+#services .serice-info {
+    border-radius: 6px;
+    box-shadow   : 0px 2px 2px rgb(216, 216, 216);
+}
+#services .serice-info h5{
+    color    : rgb(79, 100, 160);
+}
+#services .ser-icon img{
+ border-radius: 5px;
+}
+#services .serice-info:hover{
+    box-shadow   : 0px 5px 5px rgb(167, 165, 165);
+    transform: scale(1.1);
+    font-size: 16px;
+   
+}
+#services .serice-info .secand{
+    display: none;
+}
+#services .serice-info:hover .secand{
+    display: block;
+}
+
+#services .serice-info ul{
+    list-style: none;
+}
+#services .serice-info p{
+    color: black;
+}
+
+/* [-------------------clients */ 
+#client{
+    position: relative;
+    background-image     : url(../images/backAbout.jpg);
+    background-position  : center center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+#client .cover{
+    background-color: rgba(133, 129, 129, 0.658);
+}
+#client h2 {
+    color    : rgb(79, 100, 160);
+}
+#client .owl-carousel .item{
+    width: 800px;
+    padding: 50px;
+
+}
+#client #owl-carousel .item p {
+    color: #fff;
+
+}
+/* ------------articles */
+#articles .article{
+    box-shadow   : 0px 5px 5px rgb(167, 165, 165);
+    padding: 15px;
+
+}
+#articles .article button{
+    font-size: 25px;
+    background-color: rgb(79, 100, 160);
+    color: #fff;
+
+
+}
+#articles h1{
+    color    : rgb(79, 100, 160);
+
+}
+/* --------booking */
+#booking{
+    background-image     : url(../images/bg.jpg);
+    background-position  : center center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+#booking .item a{
+    text-decoration: none;
+}
+#booking .item a p {
+    text-decoration : none;
+    color: #fff;
+   
+}
+#booking .item i{
+    font-size: 70px;
+    color: #fff;
+
+}
+#booking .item:hover .call{
+  
+    color: rgb(22, 91, 182);
+}
+#booking .item:hover .fa-phone-square-alt{
+    color: rgb(22, 91, 182);
+
+}
+#booking .item:hover .text{
+  
+    color: rgb(50, 172, 50);
+}
+#booking .item:hover .fa-whatsapp-square{
+    color: rgb(50, 172, 50);
+
+}
+/* ----------footer */
+.footer {
+    color           : #fff;
+    background-color: #333;
+
+    margin-top: 40px;
+}
+
+.footer-top {
+    background: #333;
+
+}
+
+
+
+.information h2 {
+    color        : #ffffff;
+    margin-bottom: 30px;
+    font-size    : 25px;
+}
+
+
+
+.address1 li {
+    list-style : none;
+    position   : relative;
+    padding    : 0px 0 10px 5px;
+    line-height: 45px;
+    color      : #ffffff;
+    font-size  : 18px;
+}
+
+.address1 li a {
+    font-size      : 20px;
+    color          : #fff;
+    text-decoration: none;
+}
+
+.address1 li a:hover {
+    color: #92c400;
+}
+
+.socials li {
+    color      : white;
+    display    : inline;
+    font-size  : 30px;
+    margin-left: 40px;
+}
+
+.socials li a {
+    color          : white;
+    text-decoration: none;
+}
+
+.map iframe {
+    width     : 100%;
+    height    : 400px;
+}
+
+.socials li a .fa-facebook-square {
+    color: #4267B2;
+}
+
+.socials li a .fa-youtube-square {
+    color: #e63e28;
+}
+.socials li a .fa-instagram-square{
+    color: rgb(122, 92, 52);
+}
+.footer-bottom {
+    background: #333;
+    color     : #fff;
+    height    : 50px;
+    text-align: center;
+}
+
+.copyright {
+    font-size    : 18px;
+    margin-bottom: 1rem;
+}
+
+.copyright a {
+    color          : white;
+    text-decoration: none;
+}
